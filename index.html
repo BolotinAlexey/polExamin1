@@ -17,51 +17,105 @@
         <ul class="config__list">
           <li class="config__item">
             <p class="config__parag">Podaj kolor tła</p>
-            <button class="config__btn">Indigo</button>
-            <button class="config__btn">SteelBlue</button>
-            <button class="config__btn">Olive</button>
+            <button class="config__btn" data-bg="indigo">Indigo</button>
+            <button class="config__btn" data-bg="steelblue">SteelBlue</button>
+            <button class="config__btn" data-bg="olive">Olive</button>
           </li>
           <li class="config__item">
             <p>Podaj kolor czionki</p>
 
-            <select name="" id="">
-              <option value="white">white</option>
-              <option value="yellow">yellow</option>
-              <option value="green">green</option>
-              <option value="blue">blue</option>
-              <option value="black">black</option>
+            <select name="" id="fontColor">
+              <option value="white">White</option>
+              <option value="yellow">Yellow</option>
+              <option value="green">Green</option>
+              <option value="blue">Blue</option>
+              <option value="tan">Tan</option>
             </select>
           </li>
 
           <li class="config__item">
             <p>Podaj rozmjar czionki w procentach <br />np.200%</p>
-            <input type="text" value="100%" />
+            <input id="fontSize" type="text" value="100%" />
           </li>
           <li class="config__item">
             <p>Czy rysunek ma mieć ramkę?</p>
-            <input type="checkbox" name="board" id="" checked />
+            <input type="checkbox" name="board" checked />
             <span class="checkbox-text">Rysuj ramkę</span>
           </li>
           <li class="config__item">
             <p>Jaki jest typ punktowania listu?</p>
             <ul class="radio-list">
               <li>
-                <input type="radio" name="list" value="disk" checked />
+                <input
+                  class="radio"
+                  type="radio"
+                  name="list"
+                  value="disc"
+                  checked
+                />
                 <span>dysk</span>
               </li>
               <li>
-                <input type="radio" name="list" value="square" />
+                <input class="radio" type="radio" name="list" value="square" />
                 <span>kwadrat</span>
               </li>
               <li>
-                <input type="radio" name="list" value="circle" />
+                <input class="radio" type="radio" name="list" value="circle" />
                 <span>okrąg</span>
               </li>
             </ul>
           </li>
         </ul>
       </section>
-      <section class="content"></section>
+      <section class="content">
+        <section class="top">
+          <img class="content__img" src="./oleksii_bolotin.jpg" alt="" />
+          <ul class="content__list">
+            <li>element 1</li>
+            <li>element 2</li>
+            <li>element 3</li>
+          </ul>
+        </section>
+        <section class="down">
+          <p class="down__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+            obcaecati, aspernatur consectetur sed dolorum aperiam neque quasi
+            praesentium nemo fugit dignissimos veniam. Sed velit quasi sequi
+            sunt voluptatum quam minima! Nobis doloremque sequi culpa voluptatum
+            exercitationem illum laudantium velit doloribus fugit repellat amet
+            vero, dolores, neque qui totam unde nulla facilis eius libero
+            commodi possimus sunt quod. Rem, neque beatae! Dolorum ab error rem
+            iste commodi fugiat doloremque natus cum id repudiandae facere
+            tempore consequuntur aperiam ratione enim voluptates eveniet
+            voluptas aliquam, dolorem maiores quisquam. Optio voluptatibus
+            aperiam perferendis fugit! Mollitia exercitationem labore, accusamus
+            consequatur non voluptatibus a illum accusantium incidunt
+            perspiciatis quos. Obcaecati, accusamus laudantium impedit maxime
+            reiciendis odio hic, officia, ipsa optio mollitia velit ut quod amet
+            iste? Nostrum tenetur aspernatur voluptas similique? Eveniet nobis
+            neque quod reiciendis error quasi adipisci quam laudantium fugit,
+            totam assumenda. Unde repudiandae culpa explicabo voluptas obcaecati
+            assumenda officia deserunt cupiditate perferendis laborum. Quam hic
+            officiis culpa necessitatibus eligendi tenetur consequatur
+            molestiae, quis minima eveniet suscipit sequi alias? Voluptates at
+            eum quae veritatis possimus modi ducimus neque, explicabo natus quia
+            expedita ab culpa? Cumque alias eum, commodi quisquam recusandae
+            inventore pariatur illo a modi et id consectetur exercitationem ea,
+            perspiciatis quidem. Neque natus libero sunt molestiae, perspiciatis
+            est eveniet nulla perferendis voluptates iure. Magnam dolor, rem sit
+            numquam inventore architecto quia nihil, officia, neque distinctio
+            facere perferendis illo maxime consequuntur reprehenderit velit
+            possimus cupiditate praesentium. Voluptate, repellendus ipsam nam
+            dolor laudantium delectus modi. Rerum est quas inventore incidunt
+            tenetur quaerat sint nostrum, iste, aut illum nemo odio et dolore
+            fuga maiores praesentium cumque aperiam, architecto error. Sint
+            omnis sapiente fuga error at laborum. Quidem rem vero voluptatibus
+            in repellat atque deserunt ea iure neque harum incidunt, doloremque,
+            quibusdam reprehenderit aliquid suscipit expedita? Sint sed quas
+            adipisci at explicabo officia blanditiis. Voluptatibus, quis alias!
+          </p>
+        </section>
+      </section>
     </main>
     <footer>
       <p>Author:Bolotin Oleksii</p>

@@ -14,11 +14,6 @@ body {
   float: left;
   width: 30%;
 }
-.content {
-  float: right;
-  width: 70%;
-  overflow: auto;
-}
 
 footer {
   background-color: dimgray;
@@ -56,4 +51,26 @@ h1 {
 
 .checkbox-text {
   margin-left: 5px;
+}
+
+.content {
+  float: right;
+  width: 70%;
+  overflow: auto;
+}
+.content__img {
+  display: block;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid;
+  border-color: white;
+}
+
+.content__list {
+  padding-left: 50px;
+}
+.top {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
 }
