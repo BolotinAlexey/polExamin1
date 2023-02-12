@@ -9,9 +9,63 @@
   </head>
   <body>
     <main>
-      <section class="config"></section>
+      <section class="config">
+        <h1>
+          Konfigurator <br />
+          stylu
+        </h1>
+        <ul class="config__list">
+          <li class="config__item">
+            <p class="config__parag">Podaj kolor tła</p>
+            <button class="config__btn">Indigo</button>
+            <button class="config__btn">SteelBlue</button>
+            <button class="config__btn">Olive</button>
+          </li>
+          <li class="config__item">
+            <p>Podaj kolor czionki</p>
+
+            <select name="" id="">
+              <option value="white">white</option>
+              <option value="yellow">yellow</option>
+              <option value="green">green</option>
+              <option value="blue">blue</option>
+              <option value="black">black</option>
+            </select>
+          </li>
+
+          <li class="config__item">
+            <p>Podaj rozmjar czionki w procentach <br />np.200%</p>
+            <input type="text" value="100%" />
+          </li>
+          <li class="config__item">
+            <p>Czy rysunek ma mieć ramkę?</p>
+            <input type="checkbox" name="board" id="" checked />
+            <span class="checkbox-text">Rysuj ramkę</span>
+          </li>
+          <li class="config__item">
+            <p>Jaki jest typ punktowania listu?</p>
+            <ul class="radio-list">
+              <li>
+                <input type="radio" name="list" value="disk" checked />
+                <span>dysk</span>
+              </li>
+              <li>
+                <input type="radio" name="list" value="square" />
+                <span>kwadrat</span>
+              </li>
+              <li>
+                <input type="radio" name="list" value="circle" />
+                <span>okrąg</span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
       <section class="content"></section>
     </main>
+    <footer>
+      <p>Author:Bolotin Oleksii</p>
+    </footer>
 
     <script src="index.js"></script>
   </body>
